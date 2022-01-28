@@ -1,11 +1,18 @@
 body{
     background-color: #202020;
-    margin: 60px auto;
+    margin: 0px;
+    
     padding: 0px;
     box-sizing: border-box;
     text-align: center;
     color: white;
 font-family: cursive;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
 }
 
 .form h1{
@@ -57,4 +64,17 @@ font-weight: 200;
 a i{
     font-size: 30px;
     color: white;
+}
+
+
+@media only screen and (max-width: 720px) {
+ 
+
+    input{
+        width: 90% !important;
+        margin: auto;
+    }
+
+   
+    
 }
