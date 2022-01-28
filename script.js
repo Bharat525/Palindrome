@@ -1,9 +1,11 @@
 function palindrome() {
     var num = document.querySelector(".inputBox").value.toUpperCase();
-    // console.log(num)
+    console.log(num)
+    var alpha = num.split('').reverse().join('');
+    console.log(alpha)
+    // console.log(alpha);
+    console.log(num)
 
-    var alpha = num.split().reverse().join();
-    // console.log(alpha)
 
     if (num.length <= 2) {
         document.querySelector('.list').innerHTML = "TYPES MORE VALUES"
@@ -15,3 +17,9 @@ function palindrome() {
     }
 
 }
+
+
+
+
+// var num = document.querySelector('.inputBox').value.toUpperCase();
+// console.log(num)
