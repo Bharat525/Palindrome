@@ -1,0 +1,60 @@
+body{
+    background-color: #202020;
+    margin: 60px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+font-family: cursive;
+}
+
+.form h1{
+padding-top: 100px;
+font-weight: 200;
+
+}
+
+.made-with a:hover{
+    border-radius: 2px;
+    border-bottom: 2px solid white;
+}
+
+.made-with a{
+    text-decoration: none;
+
+}
+
+.form .inputBox{
+    border: 1px solid #f6f8fa;
+    padding: 10px;
+    text-indent: 5px;
+    width: 450px;
+    background-color: black;
+    margin: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: lighter;
+}
+
+.list{
+    color: white;
+    font-size: 20px;
+    padding-top:50px;
+}
+
+
+.footer{
+    margin-top: 40px;
+
+}
+
+.connect{
+    color: white;
+    margin-top:15px;
+    font-family: cursive;
+}
+
+a i{
+    font-size: 30px;
+    color: white;
+}
