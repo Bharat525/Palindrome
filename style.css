@@ -69,9 +69,12 @@ a i{
 
 @media only screen and (max-width: 720px) {
  
+    .container{
+        width: 90%;
+    }
 
     input{
-        width: 90% !important;
+        width: 80% !important;
         margin: auto;
     }
 
